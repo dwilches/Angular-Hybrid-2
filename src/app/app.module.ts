@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { DoBootstrap, NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { UpgradeModule } from '@angular/upgrade/static';
 import { AboutNg2Component } from './about/aboutNg2.component';
 import { PictureNg2Directive } from './upgrades/pictureNg2.directive';
@@ -11,15 +9,13 @@ import { SettingsNg2Component } from './settings/settingsNg2.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     AboutNg2Component,
     PictureNg2Directive,
     SettingsNg2Component
   ],
   imports: [
     BrowserModule,
-    UpgradeModule,
-    AppRoutingModule
+    UpgradeModule
   ],
   providers: [],
 })

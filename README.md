@@ -27,3 +27,7 @@ reddish is Angular.js, blueish is Angular.
 
 ### Angular1 component routing to an Angular2 component:
 ![Angular1 route using Angular2](docs/ng1ng2.png?raw=true "Angular1 route using Angular2")
+
+## Browse the code without cloning
+
+To check the code without cloning/downloading, check [this StackBlitz](https://stackblitz.com/github/dwilches/Angular-Hybrid-1?file=src%2Fapp%2Fapp.module.ts)
