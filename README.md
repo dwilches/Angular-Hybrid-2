@@ -1,27 +1,29 @@
-# HybridNgCli1
+# Angular Hybrid (1)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+This repo shows how to use these technologies combined (hopefully, saving you some suffering):
 
-## Development server
+- [Angular.js 1.7](https://angularjs.org/)
+- [Angular 10](https://angular.io/)
+- [ngUpgrade](https://angular.io/guide/upgrade)
+- [Angular CLI](https://cli.angular.io/)
+- [UI-Router](https://ui-router.github.io/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+There are plenty tutorials out there, even some official by the Angular team. 
+But while following them, I noticed they were either outdated, incomplete, or didn't cover how to configure a
+hybrid application with the Angular CLI.
 
-## Code scaffolding
+This repo is meant to save you some time and serve as a starting point if you are struggling with properly configuring your
+application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## What you'll find here
+This application's main component is in Angular.js. It contains links with ui-router to both Angular.js and Angular components,
+which in turn contain inside some mix of Angular.js and Angular components.
 
-## Build
+The components are color coded, so it's easy to know which component is written in which framework: 
+reddish is Angular.js, blueish is Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Angular1 component routing to another Angular1 component:
+![Angular1 route using Angular1](docs/ng1ng1.png?raw=true "Angular1 route using Angular1")
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Angular1 component routing to an Angular2 component:
+![Angular1 route using Angular2](docs/ng1ng2.png?raw=true "Angular1 route using Angular2")
