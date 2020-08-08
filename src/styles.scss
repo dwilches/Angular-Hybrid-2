@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+div.ng1 {
+  color: coral;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px coral;
+}
+
+div.ng2 {
+  color: cornflowerblue;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px cornflowerblue;
+}
+
+a {
+  color: inherit;
+}
+
+a.active {
+  font-weight: bold;
+}

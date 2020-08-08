@@ -1,18 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { DoBootstrap, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UpgradeModule } from '@angular/upgrade/static';
+import { AboutNg2Component } from './about/aboutNg2.component';
+import { PictureNg2Directive } from './upgrades/pictureNg2.directive';
+import { mainNg1ModuleName } from '../ng1';
+import { SettingsNg2Component } from './settings/settingsNg2.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutNg2Component,
+    PictureNg2Directive,
+    SettingsNg2Component
   ],
   imports: [
     BrowserModule,
+    UpgradeModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule implements DoBootstrap {
+  constructor(private upgrade: UpgradeModule) {
+  }
+
+  ngDoBootstrap(): void {
+    this.upgrade.bootstrap(document.body, [ mainNg1ModuleName ], { strictDi: true });
+  }
+}

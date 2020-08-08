@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `This is an Ng2 component, and it's not used anymore.`
 })
 export class AppComponent {
-  title = 'hybridNgCli1';
 }
