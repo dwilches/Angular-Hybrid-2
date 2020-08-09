@@ -22,12 +22,8 @@ which in turn contain inside some mix of Angular.js and Angular components.
 The components are color coded, so it's easy to know which component is written in which framework: 
 reddish is Angular.js, blueish is Angular.
 
-### Angular1 component routing to another Angular1 component:
-![Angular1 route using Angular1](docs/ng1ng1.png?raw=true "Angular1 route using Angular1")
-
-### Angular1 component routing to an Angular2 component:
-![Angular1 route using Angular2](docs/ng1ng2.png?raw=true "Angular1 route using Angular2")
-
 ## Browse the code without cloning
 
-To check the code without cloning/downloading, check [this StackBlitz](https://stackblitz.com/github/dwilches/Angular-Hybrid-1?file=src%2Fapp%2Fapp.module.ts)
+To look at the code without cloning/downloading, open this StackBlitz:
+
+[![StackBlitz](docs/ng1ng2.png?raw=true)](https://stackblitz.com/edit/angular-hybrid-1)
