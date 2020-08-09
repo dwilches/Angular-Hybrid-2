@@ -18,6 +18,10 @@ import { SettingsNg2Component } from './settings/settingsNg2.component';
     UpgradeModule
   ],
   providers: [],
+  entryComponents: [
+    AboutNg2Component,
+    SettingsNg2Component
+  ]
 })
 export class AppModule implements DoBootstrap {
   constructor(private upgrade: UpgradeModule) {
