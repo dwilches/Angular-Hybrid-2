@@ -13,6 +13,6 @@ heroAppModule.config([ '$stateProvider', ($stateProvider) => {
   $stateProvider.state({
     name: 'about',
     url: '/about',
-    template: '<about-ng2></about-ng2>'
+    template: '<div class="ng1">Empty</div>'
   });
 } ]);

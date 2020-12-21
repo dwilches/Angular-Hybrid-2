@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hybridNgCli1"
+    }
+  },
+  "defaultProject": "hybridNgCli1",
+  "cli": {
+    "analytics": false
+  }
 }

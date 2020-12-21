@@ -5,7 +5,7 @@ heroAppModule
     template: `
     <div class="ng1">
         <h1>Menu</h1>
-        <settings-ng2></settings-ng2>
+        <!-- settings-ng2></settings-ng2 -->
     </div>
   `
   });
