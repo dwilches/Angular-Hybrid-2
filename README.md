@@ -4,9 +4,10 @@ This repo shows how to use these technologies combined (hopefully, saving you so
 
 - [Angular.js 1.7](https://angularjs.org/)
 - [Angular 10](https://angular.io/)
+- [UI-Router](https://ui-router.github.io/)
+- [Angular Router](https://angular.io/api/router)
 - [ngUpgrade](https://angular.io/guide/upgrade)
 - [Angular CLI](https://cli.angular.io/)
-- [UI-Router](https://ui-router.github.io/)
 
 There are plenty tutorials out there, even some official by the Angular team. 
 But while following them, I noticed they were either outdated, incomplete, or didn't cover how to configure a
